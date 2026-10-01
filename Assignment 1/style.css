@@ -1,0 +1,73 @@
+/* Google Fonts */
+.oswald-450 {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.roboto-360 {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-size: 16px;
+}
+/* Navigation Bar */
+.navbar {
+    background-color: #063b2f;
+    margin: 0;
+    padding: 18px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+.nav-links li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+.nav-links li a:hover {
+    color: #f4c542;
+}
+.nav-links li a.active{
+    color: #f4c542;
+    font-weight: 700;
+    border-bottom: 2px solid #f4c542;
+    padding-bottom: 5px;
+}
+/* Header */
+.header h1{
+    font-size: 40px;
+}
+.header p{
+    margin-bottom: 25px;
+}
+/* Flex Container for Main Content */
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+/* Grid Container for Main Content */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+/* Image */
+img{
+    width: 50%;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
